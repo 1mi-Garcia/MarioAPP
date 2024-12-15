@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRed">#FF5733</color> <!-- Rojo Mario -->
+    <color name="colorRedDark">#C4411C</color> <!-- Rojo oscuro -->
+    <color name="colorYellow">#FCE610</color> <!-- Amarillo estrella -->
+    <color name="backBlueSky">#87CEEB</color> <!-- Azul cielo -->
+    <color name="colorWhite">#F8F8F8</color> <!-- Blanco suave para tarjetas -->
+    <color name="textColorGreyDark">#2E2E2E</color> <!-- Gris oscuro -->
+    <color name="textColorGrey">#555555</color> <!-- Gris medio -->
+    <color name="textColorBlack">#000000</color> <!-- Negro -->
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Mario APP</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+    <string name="action_about">Acerca de…</string>
+    <string name="about_message">Aplicación desarrollada por Juan Miguel García Rodríguez.\nVersión 1.0.</string>
+    <string name="snack_message">Bienvenido al mundo de Mario</string>
+    <string name="toast_message">"Personaje seleccionado: "</string>
+    <string name="character_image_detail">Imagen de personaje</string>
+    <string name="character_image_cardview">Imagen de personaje</string>
+    <string name="characters_list">LISTA DE PERSONAJES</string>
+    <string name="characters_detail">DETALLES DEL PERSONAJE</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_setting">Ajustes</string>
+    <string name="language_preference">Preferencia de lenguaje:</string>
+    <string name="spanish">Español</string>
+    <string name="navigation_menu">Menú de Navegación</string>
+
+    <!--Datos de personajes-->
+    <string name="mario_name">Mario</string>
+    <string name="mario_description">El héroe principal del Reino Champiñón, conocido por su valentía y habilidades en plataformas.</string>
+    <string-array name="mario_powers">
+        <item>Salto alto</item>
+        <item>Lanzar fuego</item>
+        <item>Transformación Super Mario</item>
+    </string-array>
+
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_description">El hermano menor de Mario, algo tímido pero con habilidades sobresalientes.</string>
+    <string-array name="luigi_powers">
+        <item>Salto largo</item>
+        <item>Aspiradora fantasma</item>
+        <item>Transformación Luigi gigante</item>
+    </string-array>
+
+    <string name="peach_name">Peach</string>
+    <string name="peach_description">La princesa del Reino Champiñón, siempre lista para liderar y defender a su reino.</string>
+    <string-array name="peach_powers">
+        <item>Lanzar corazones</item>
+        <item>Transformación Super Peach</item>
+    </string-array>
+
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_description">El principal antagonista, conocido por secuestrar a Peach y su poderosa fuerza.</string>
+    <string-array name="bowser_powers">
+        <item>Lanzar fuego</item>
+        <item>Fuerza bruta</item>
+        <item>Transformación Bowser furioso</item>
+    </string-array>
+
+    <string name="toad_name">Toad</string>
+    <string name="toad_description">Un fiel habitante del Reino Champiñón, siempre dispuesto a ayudar.</string>
+    <string-array name="toad_powers">
+        <item>Velocidad extra</item>
+        <item>Supervivencia</item>
+        <item>Ayuda estratégica</item>
+    </string-array>
+
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_description">Un dinosaurio amigo de Mario, conocido por su habilidad de tragar enemigos.</string>
+    <string-array name="yoshi_powers">
+        <item>Lengua extensible</item>
+        <item>Transformación Mega Yoshi</item>
+    </string-array>
+
+    <string name="daisy_name">Daisy</string>
+    <string name="daisy_description">La energética princesa de Sarasaland, conocida por su carisma.</string>
+    <string-array name="daisy_powers">
+        <item>Golpe floral</item>
+        <item>Escudo solar</item>
+    </string-array>
+
+    <string name="wario_name">Wario</string>
+    <string name="wario_description">El rival de Mario, con un gusto por las riquezas y la fuerza bruta.</string>
+    <string-array name="wario_powers">
+        <item>Súper fuerza</item>
+        <item>Golpe giratorio</item>
+        <item>Transformación Mega Wario</item>
+    </string-array>
+
+    <string name="waluigi_name">Waluigi</string>
+    <string name="waluigi_description">El compañero de Wario, conocido por su agilidad y astucia.</string>
+    <string-array name="waluigi_powers">
+        <item>Esquive rápido</item>
+        <item>Ataque con trampas</item>
+    </string-array>
+
+    <string name="rosalina_name">Rosalina</string>
+    <string name="rosalina_description">Una protectora cósmica que cuida de los Lumas.</string>
+    <string-array name="rosalina_powers">
+        <item>Control estelar</item>
+        <item>Ataque gravitacional</item>
+        <item>Transformación Estrella fugaz</item>
+    </string-array>
+
+    <string name="bowserjr_name">Bowser Jr.</string>
+    <string name="bowserjr_description">El hijo de Bowser, travieso pero con habilidades sorprendentes.</string>
+    <string-array name="bowserjr_powers">
+        <item>Pincel mágico</item>
+        <item>Carro volador</item>
+    </string-array>
+
+    <string name="kamek_name">Kamek</string>
+    <string name="kamek_description">El mago leal de Bowser, experto en hechicería.</string>
+    <string-array name="kamek_powers">
+        <item>Hechizos mágicos</item>
+        <item>Teleportación</item>
+        <item>Creación de clones</item>
+    </string-array>
+</resources>

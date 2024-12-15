@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Super Mario APP</string>
+    <string name="open_drawer">Open menu</string>
+    <string name="close_drawer">Close menu</string>
+    <string name="action_about">About…</string>
+    <string name="about_message">Application developed by Juan Miguel García Rodríguez.\nVersion 1.0.</string>
+    <string name="snack_message">Welcome to Mario\'s World</string>
+    <string name="toast_message">"The character has been selected: "</string>
+    <string name="character_image_detail">Character Image</string>
+    <string name="character_image_cardview">Character Image</string>
+    <string name="characters_list">CHARACTERS LIST</string>
+    <string name="characters_detail">CHARACTER DETAIL</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_setting">Setting</string>
+    <string name="language_preference">Language preference:</string>
+    <string name="spanish">Spanish</string>
+    <string name="navigation_menu">Navigation Menu</string>
+
+    <string name="mario_name">Mario</string>
+    <string name="mario_description">The main hero of the Mushroom Kingdom, known for his bravery and platforming skills.</string>
+    <string-array name="mario_powers">
+        <item>High jump</item>
+        <item>Fire throwing</item>
+        <item>Super Mario transformation</item>
+    </string-array>
+
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_description">Mario\'s younger brother, somewhat shy but with outstanding abilities.</string>
+    <string-array name="luigi_powers">
+        <item>Long jump</item>
+        <item>Ghost vacuum</item>
+        <item>Giant Luigi transformation</item>
+    </string-array>
+
+    <string name="peach_name">Peach</string>
+    <string name="peach_description">The princess of the Mushroom Kingdom, always ready to lead and defend her realm.</string>
+    <string-array name="peach_powers">
+        <item>Heart throwing</item>
+        <item>Super Peach transformation</item>
+    </string-array>
+
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_description">The main antagonist, known for kidnapping Peach and his immense strength.</string>
+    <string-array name="bowser_powers">
+        <item>Fire throwing</item>
+        <item>Brute strength</item>
+        <item>Furious Bowser transformation</item>
+    </string-array>
+
+    <string name="toad_name">Toad</string>
+    <string name="toad_description">A loyal inhabitant of the Mushroom Kingdom, always willing to help.</string>
+    <string-array name="toad_powers">
+        <item>Extra speed</item>
+        <item>Survival</item>
+        <item>Strategic aid</item>
+    </string-array>
+
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_description">A dinosaur friend of Mario, known for his ability to swallow enemies.</string>
+    <string-array name="yoshi_powers">
+        <item>Extensible tongue</item>
+        <item>Mega Yoshi transformation</item>
+    </string-array>
+
+    <string name="daisy_name">Daisy</string>
+    <string name="daisy_description">The energetic princess of Sarasaland, known for her charisma.</string>
+    <string-array name="daisy_powers">
+        <item>Floral strike</item>
+        <item>Solar shield</item>
+    </string-array>
+
+    <string name="wario_name">Wario</string>
+    <string name="wario_description">Mario\'s rival, with a taste for riches and brute strength.</string>
+    <string-array name="wario_powers">
+        <item>Super strength</item>
+        <item>Spinning punch</item>
+        <item>Mega Wario transformation</item>
+    </string-array>
+
+    <string name="waluigi_name">Waluigi</string>
+    <string name="waluigi_description">Wario\'s companion, known for his agility and cunning.</string>
+    <string-array name="waluigi_powers">
+        <item>Quick dodge</item>
+        <item>Trap attack</item>
+    </string-array>
+
+    <string name="rosalina_name">Rosalina</string>
+    <string name="rosalina_description">A cosmic protector who takes care of the Lumas.</string>
+    <string-array name="rosalina_powers">
+        <item>Star control</item>
+        <item>Gravitational attack</item>
+        <item>Shooting star transformation</item>
+    </string-array>
+
+    <string name="bowserjr_name">Bowser Jr.</string>
+    <string name="bowserjr_description">Bowser\'s son, mischievous but with surprising abilities.</string>
+    <string-array name="bowserjr_powers">
+        <item>Magic brush</item>
+        <item>Flying car</item>
+    </string-array>
+
+    <string name="kamek_name">Kamek</string>
+    <string name="kamek_description">Bowser\'s loyal wizard, an expert in sorcery.</string>
+    <string-array name="kamek_powers">
+        <item>Magic spells</item>
+        <item>Teleportation</item>
+        <item>Clone creation</item>
+    </string-array>
+
+</resources>

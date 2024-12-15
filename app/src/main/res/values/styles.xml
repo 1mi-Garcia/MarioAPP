@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Fuente personalizada -->
+    <style name="SuperMarioFont">
+        <item name="android:fontFamily">@font/mario_font</item>
+    </style>
+
+    <!-- Tema para el Toolbar -->
+    <style name="Toolbar">
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:titleTextColor">@color/colorYellow</item>
+        <item name="android:subtitleTextColor">@color/textColorGrey</item>
+    </style>
+
+    <!-- Tema para los TextView -->
+    <style name="SuperMarioTextPrimary">
+        <item name="android:textColor">@color/textColorGreyDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/mario_font</item>
+    </style>
+
+    <style name="SuperMarioTextSecondary">
+        <item name="android:textColor">@color/textColorGrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/mario_font</item>
+    </style>
+
+    <!-- Tema para las CardViews -->
+    <style name="SuperMarioCard">
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+        <item name="cardCornerRadius">30dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+</resources>
