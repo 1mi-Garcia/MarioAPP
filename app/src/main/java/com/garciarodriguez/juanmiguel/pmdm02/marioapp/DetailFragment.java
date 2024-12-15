@@ -15,6 +15,8 @@ import com.garciarodriguez.juanmiguel.pmdm02.marioapp.databinding.FragmentDetail
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.model.CharacterModel;
 import com.google.gson.Gson;
 
+import java.util.Objects;
+
 
 /**
  * Fragmento que muestra los detalles de un personaje.
@@ -45,9 +47,7 @@ public class DetailFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.characters_detail);
-        }
+        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(R.string.characters_detail);
     }
 
     /**

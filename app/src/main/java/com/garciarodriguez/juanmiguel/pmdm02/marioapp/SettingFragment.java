@@ -14,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.databinding.FragmentSettingBinding;
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.services.PreferencesHelper;
 
+import java.util.Objects;
+
 
 /**
  * Fragmento que gestiona la configuración de idioma de la aplicación.
@@ -52,7 +54,7 @@ public class SettingFragment extends Fragment {
         super.onStart();
         // Cambiar el titulo del ActionBar
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.language_preference);
+            Objects.requireNonNull(((AppCompatActivity) getActivity()).getSupportActionBar()).setTitle(R.string.language_preference);
         }
     }
 

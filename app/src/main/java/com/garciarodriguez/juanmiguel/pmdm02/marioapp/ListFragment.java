@@ -16,6 +16,7 @@ import com.garciarodriguez.juanmiguel.pmdm02.marioapp.model.CharacterModel;
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.services.CharactersListService;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 
 /**
@@ -55,7 +56,7 @@ public class ListFragment extends Fragment {
         super.onStart();
         // Cambia el titulo del ActionBar
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.characters_list);
+            Objects.requireNonNull(((AppCompatActivity) getActivity()).getSupportActionBar()).setTitle(R.string.characters_list);
         }
     }
 }

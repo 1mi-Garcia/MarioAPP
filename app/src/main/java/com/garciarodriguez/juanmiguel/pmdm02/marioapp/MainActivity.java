@@ -5,14 +5,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
@@ -25,6 +21,8 @@ import com.garciarodriguez.juanmiguel.pmdm02.marioapp.databinding.ActivityMainBi
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.model.CharacterModel;
 import com.garciarodriguez.juanmiguel.pmdm02.marioapp.services.PreferencesHelper;
 import com.google.gson.Gson;
+
+import java.util.Objects;
 
 /**
  * Actividad principal de la aplicación.
@@ -57,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         // Obtener el NavController desde el NavHostFragment
         FragmentManager fragmentManager = getSupportFragmentManager();
         NavHostFragment navHostFragment = (NavHostFragment) fragmentManager.findFragmentById(R.id.nav_host_fragment);
-        navController = navHostFragment.getNavController();
+        navController = Objects.requireNonNull(navHostFragment).getNavController();
 
         navController.addOnDestinationChangedListener(this::onChangeView);
 
@@ -83,11 +81,7 @@ public class MainActivity extends AppCompatActivity {
     private void onChangeView(NavController navController, NavDestination navDestination, Bundle bundle) {
         if (toggle != null) {
             // Desactivar el indicador del Drawer en el fragmento de detalle
-            if (navDestination.getId() == R.id.detailFragment) {
-                toggle.setDrawerIndicatorEnabled(false);
-            } else {
-                toggle.setDrawerIndicatorEnabled(true);
-            }
+            toggle.setDrawerIndicatorEnabled(navDestination.getId() != R.id.detailFragment);
         }
     }
 
